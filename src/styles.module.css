@@ -7,3 +7,74 @@
   font-size: 2em;
   text-align: center;
 }
+
+.btn {
+  outline: 0;
+  line-height: 1.5715;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 15px;
+  height: 32px;
+  line-height: 22px;
+  border: 1px solid #d9d9d9;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  margin-bottom: 12px;
+  margin-right: 8px;
+}
+
+.btn:hover {
+  color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.btn-primary {
+  background-color: rgb(64, 169, 255);
+  border: 1px solid rgb(64, 169, 255);
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.043) 0px 2px 0px 0px;
+}
+
+.btn-primary:hover {
+  color: rgb(255, 255, 255);
+  background-color: #7ec1ff;
+  border-color: #7ec1ff;
+}
+
+.btn-dashed {
+  color: #000000d9;
+  background: #fff;
+  border: 1px dashed #d9d9d9;
+}
+
+.btn-dashed:hover {
+  color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.btn-text {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.btn-text:hover {
+  background: rgba(0, 0, 0, 0.018);
+  color: #000000d9;
+  border-color: transparent;
+}
+
+.btn-link {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  color: #40a9ff;
+}
+
+.btn-link:hover {
+  border-color: rgba(0, 0, 0, 0);
+  color: #7ec1ff;
+}
+
