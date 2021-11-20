@@ -13,16 +13,24 @@ npm install --save behelit
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'behelit'
+import { Button } from 'behelit'
 import 'behelit/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return (
+    <>
+      <Button type='dashed'>Dashed Button</Button>
+      <Button type='primary'>Primary Button</Button>
+      <Button>Default Button</Button>
+      <Button type='text'>Text Button</Button>
+      <Button type='link'>Link Button</Button>
+    </>
+  )
 }
+
+export default App
 ```
 
 ## License
